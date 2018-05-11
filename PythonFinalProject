@@ -1,0 +1,14 @@
+name = input("Please enter your name: ")
+print ("Hello, " + name + "!")
+age = input("How old are you? ")
+age = int(age)
+
+if age >= 16:
+    print("You are old enough to play the game!")
+else:
+    print (Aw that sucks, maybe when your older")
+
+current_number = 1
+while current_number <= 5:
+    print(current_number)
+    current_number += 1
